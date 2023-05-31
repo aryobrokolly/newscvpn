@@ -45,7 +45,7 @@ clear
 # echo -e "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"$NC
 # figlet LIZSVR | lolcat
 # #echo -e "$NC"
-# echo -e "Telegram : @liz_mine"
+# echo -e "Telegram : @Opindoo"
 echo -e "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
 echo -e "$BRED          Informasi System           $NC"
 echo -e "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
@@ -130,5 +130,5 @@ fi
 # echo -e " Fail2ban                :$RED [Error] $NC"
 # fi
 echo -e "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
-echo -e "$BRED----------- Mod By LIZSVR -----------"
+echo -e "$BRED------- Mod By ARYO BROKOLLY --------"
 echo -e "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
