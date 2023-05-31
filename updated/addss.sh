@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/liz_mine
+# My Telegram : https://t.me/Opindoo
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -20,7 +20,7 @@ echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
 echo -e "${NC}${RED}Permission Denied!${NC}";
 echo -e "${NC}${LIGHT}Please Contact Admin!!"
-echo -e "${NC}${LIGHT}Telegram : https://t.me/liz_mine"
+echo -e "${NC}${LIGHT}Telegram : https://t.me/Opindoo"
 exit 0
 fi
 clear
@@ -126,7 +126,7 @@ cat > /home/vps/public_html/ss-ws-$user.txt <<-END
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "isi_bug_disini"
+          "serverName": "$domain"
         },
         "wsSettings": {
           "headers": {
@@ -237,7 +237,7 @@ cat > /home/vps/public_html/ss-grpc-$user.txt <<-END
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "isi_bug_disini"
+          "serverName": "$domain"
         }
       },
       "tag": "proxy"
@@ -298,4 +298,4 @@ echo -e "Link TLS    : http://${domain}:89/ss-ws-$user.txt"
 echo -e "========================="
 echo -e "Link GRPC : http://${domain}:89/ss-grpc-$user.txt"
 echo -e "========================="
-echo -e "Script Mod By LIZSVR"
+echo -e "Script Mod By ARYO"
