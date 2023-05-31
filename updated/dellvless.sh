@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/liz_mine
+# My Telegram : https://t.me/Opindoo
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -14,7 +14,7 @@ LIGHT='\033[0;37m'
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-IZIN=$(curl https://raw.githubusercontent.com/lizsvr/project/main/ipvps.txt | grep $MYIP | awk '{print $3}')
+IZIN=$(curl https://raw.githubusercontent.com/aryobrokolly/opsid/main/ipvps.txt | grep $MYIP | awk '{print $3}')
 if [ $MYIP = $MYIP ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
@@ -59,4 +59,4 @@ echo "==============================="
 echo "Username  : $user"
 echo "Expired   : $exp"
 echo "==============================="
-echo "Scipt Mod By LIZ"
+echo "Scipt Mod By ARYO"
