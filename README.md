@@ -96,7 +96,6 @@ restart-xray
 - certv2ray/certxray (Perbarui Sertifikat / Update Certificate)
 
   DONASI:
-~~~
 ![photo_2022-12-16_08-23-15](https://github.com/aryobrokolly/newscvpn/assets/98819851/bee26720-803c-427c-aab3-d7c17ed583ec)
-~~~
+
   
