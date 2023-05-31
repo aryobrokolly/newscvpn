@@ -159,7 +159,7 @@ cat > /home/vps/public_html/ss-ws-$user.txt <<-END
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "isi_bug_disini"
+          "serverName": "$domain"
         },
         "wsSettings": {
           "headers": {
@@ -270,7 +270,7 @@ cat > /home/vps/public_html/ss-grpc-$user.txt <<-END
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "isi_bug_disini"
+          "serverName": "$domain"
         }
       },
       "tag": "proxy"
@@ -359,8 +359,8 @@ echo -e "=> WS TLS : /xrayws" | tee -a /etc/log-create-user.log
 echo -e "=> GRPC   : vless-grpc" | tee -a /etc/log-create-user.log
 echo -e "=> OPOK   : ws://bugcom/xrayws" | tee -a /etc/log-create-user.log
 echo -e "====== Import Config From Clipboard =======" | tee -a /etc/log-create-user.log
-echo -e "Link Config WS TLS    : $vlesslinkws" | tee -a /etc/log-create-user.log
-echo -e "Link Config GRPC TLS  : $vlesslinkgrpc" | tee -a /etc/log-create-user.log
+echo -e "Link WS TLS    : $vlesslinkws" | tee -a /etc/log-create-user.log
+echo -e "Link GRPC TLS  : $vlesslinkgrpc" | tee -a /etc/log-create-user.log
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | tee -a /etc/log-create-user.log
 echo -e "Protokol VPN: VMESS" | tee -a /etc/log-create-user.log
 echo -e "Alter ID: 0" | tee -a /etc/log-create-user.log
