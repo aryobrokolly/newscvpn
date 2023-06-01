@@ -32,7 +32,7 @@ fi
 # link hosting kalian
 akbarvpn="https://raw.githubusercontent.com/aryobrokolly/newscvpn/main/menu"
 akbarvpnn="https://raw.githubusercontent.com/aryobrokolly/newscvpn/main/menu/updated"
-akbarvpnnn="https://raw.githubusercontent.com/aryobrokolly/newscvpnmain/updated"
+akbarvpnnn="https://raw.githubusercontent.com/aryobrokolly/newscvpn/main/updated"
 cd
 rm -r updatedll
 wget -O updatedll "https://raw.githubusercontent.com/aryobrokolly/newscvpn/main/menu/updatedll.sh"
