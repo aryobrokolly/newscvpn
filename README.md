@@ -49,6 +49,12 @@
 
 # Cara Install Script Nya
 - Login ke VPS kamu ( wajib pake user ***root***)
+
+Instal sudo debian:
+```
+apt update && apt install sudo
+```
+  
 1. MASUK KE VPS LALU KETIK
 ```
 sudo su
