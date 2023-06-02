@@ -67,7 +67,7 @@ apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 - maka proses install akan berjalan, jangan keluar dari vps
 - jika keluar dari vps saat lagi proses install,maka akan gagal
 ```
-wget https://raw.githubusercontent.com/aryobrokolly/newscvpn/main/setup.sh && chmod +x setup.sh && ./setup.sh
+wget --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/newscvpn/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 5. jika sudah selesai,lalu ketik xmenu untuk menampilkan menu
 
